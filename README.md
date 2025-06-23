@@ -22,7 +22,7 @@ Le jeu de données est composé de 79 variables expliquant chaque vente résiden
 
 Le modèle utilisé est un **Gradient Boosting Regressor** avec les paramètres suivants :
 
-```python
+python
 GradientBoostingRegressor(n_estimators=100, learning_rate=0.1, random_state=42)
 
 ## 📌 Score
